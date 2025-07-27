@@ -68,7 +68,7 @@ const BouncingQyuts = () => {
           };
         });
 
-        let collisionMap: Record<number, number> = {};
+        const collisionMap: Record<number, number> = {};
 
         for (let i = 0; i < updated.length; i++) {
           for (let j = i + 1; j < updated.length; j++) {
